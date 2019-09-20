@@ -3,6 +3,7 @@
     "description": "(FORK) JSON web token security provider for Silex 2.",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Hallison Boaventura",
