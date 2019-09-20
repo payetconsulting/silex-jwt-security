@@ -3,7 +3,7 @@
 ### Install
 
 ```shell
-composer require hallboav/silex-jwt-security
+composer require payetconsulting/silex-jwt-security
 ```
 
 ### Usage
