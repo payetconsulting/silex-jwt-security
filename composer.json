@@ -1,6 +1,6 @@
 {
-    "name": "hallboav/silex-jwt-security",
-    "description": "JSON web token security provider for Silex 2.",
+    "name": "payetconsulting/silex-jwt-security",
+    "description": "(FORK) JSON web token security provider for Silex 2.",
     "type": "library",
     "license": "MIT",
     "authors": [

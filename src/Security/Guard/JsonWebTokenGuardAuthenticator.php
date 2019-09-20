@@ -44,6 +44,11 @@ class JsonWebTokenGuardAuthenticator extends AbstractGuardAuthenticator
 
     public function getUser($credentials, UserProviderInterface $userProvider)
     {
+        if (get_class($credentials) === "Lcobucci\JWT\Token") {
+            $username = $credentials->getClaims()['username']->getValue();
+
+            return $userProvider->loadUserByUsername($username);
+        }
         return $userProvider->loadUserByUsername($credentials);
     }
 
