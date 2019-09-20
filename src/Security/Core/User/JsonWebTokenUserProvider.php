@@ -1,5 +1,5 @@
 <?php
-namespace Hallboav\Security\Core\User;
+namespace PayetConsulting\JWT\Security\Core\User;
 
 use Symfony\Component\Security\Core\User\User;
 use Symfony\Component\Security\Core\User\UserInterface;

@@ -1,5 +1,5 @@
 <?php
-namespace Hallboav\Security\Guard\Helper;
+namespace PayetConsulting\JWT\Security\Guard\Helper;
 
 use Lcobucci\JWT as LcobucciJwt;
 use Symfony\Component\HttpFoundation\Request;

@@ -1,7 +1,7 @@
 <?php
-namespace Hallboav\Security\Guard;
+namespace PayetConsulting\JWT\Security\Guard;
 
-use Hallboav\Security\Guard\Helper\JsonWebTokenExtractor;
+use PayetConsulting\JWT\Security\Guard\Helper\JsonWebTokenExtractor;
 use Lcobucci\JWT as JsonWebToken;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;

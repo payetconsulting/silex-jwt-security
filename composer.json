@@ -3,16 +3,9 @@
     "description": "(FORK) JSON web token security provider for Silex 2.",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
-    "authors": [
-        {
-            "name": "Hallison Boaventura",
-            "email": "hallisonboaventura@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "Hallboav\\": "src"
+            "PayetConsulting\\JWT\\": "src"
         },
         "exclude-from-classmap": [
             "tests"
@@ -20,7 +13,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Hallboav\\Tests\\": "tests"
+            "PayetConsulting\\JWT\\Tests\\": "tests"
         }
     },
     "require": {

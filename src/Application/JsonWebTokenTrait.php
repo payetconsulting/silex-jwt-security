@@ -1,5 +1,5 @@
 <?php
-namespace Hallboav\Application;
+namespace PayetConsulting\JWT\Application;
 
 use Lcobucci\JWT as LcobucciJwt;
 

@@ -1,8 +1,8 @@
 <?php
-namespace Hallboav\Tests\Security\Guard\Helper;
+namespace PayetConsulting\JWT\Tests\Security\Guard\Helper;
 
-use Hallboav\Provider\JsonWebTokenSecurityServiceProvider;
-use Hallboav\Security\Guard\Helper\JsonWebTokenExtractor;
+use PayetConsulting\JWT\Provider\JsonWebTokenSecurityServiceProvider;
+use PayetConsulting\JWT\Security\Guard\Helper\JsonWebTokenExtractor;
 use Lcobucci\JWT as LcobucciJwt;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;

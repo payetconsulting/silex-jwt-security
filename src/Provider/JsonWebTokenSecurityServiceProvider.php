@@ -1,9 +1,9 @@
 <?php
-namespace Hallboav\Provider;
+namespace PayetConsulting\JWT\Provider;
 
-use Hallboav\Security\Core\User\JsonWebTokenUserProvider;
-use Hallboav\Security\Guard\Helper\JsonWebTokenExtractor;
-use Hallboav\Security\Guard\JsonWebTokenGuardAuthenticator;
+use PayetConsulting\JWT\Security\Core\User\JsonWebTokenUserProvider;
+use PayetConsulting\JWT\Security\Guard\Helper\JsonWebTokenExtractor;
+use PayetConsulting\JWT\Security\Guard\JsonWebTokenGuardAuthenticator;
 use Lcobucci\JWT as LcobucciJwt;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;

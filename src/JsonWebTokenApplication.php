@@ -1,7 +1,7 @@
 <?php
-namespace Hallboav;
+namespace PayetConsulting\JWT;
 
-use Hallboav\Application\JsonWebTokenTrait;
+use PayetConsulting\JWT\Application\JsonWebTokenTrait;
 use Silex\Application;
 
 class JsonWebTokenApplication extends Application
